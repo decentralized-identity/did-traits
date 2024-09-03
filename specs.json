@@ -1,8 +1,7 @@
-
 {
   "specs": [
     {
-      "title": "template-for-DIF-work-items",
+      "title": "DID Traits",
       "spec_directory": "./spec",
       "output_path": "./build",
       "logo": "https://rawcdn.githack.com/decentralized-identity/decentralized-identity.github.io/a3ca39717e440302d1fd99a796e7f00e1c42eb2d/images/logo-flat.svg",
@@ -10,7 +9,7 @@
       "source": {
         "host": "github",
         "account": "decentralized-identity",
-        "repo": "template-for-DIF-work-items"
+        "repo": "did-traits"
       }
     }
   ]
