@@ -16,85 +16,110 @@
       "description": "DID Specification URL.",
       "format": "uri"
     },
+    "modifiable": {
+      "type": "boolean",
+      "title": "Modifiable",
+      "description": "DID Documents can be modified."
+    },
+    "service_endpoints": {
+      "type": "boolean",
+      "title": "Service Endpoints",
+      "description": "Service endpoints can be added to DID Documents."
+    },
     "deactivatable": {
       "type": "boolean",
       "title": "Deactivatable",
-      "description": "DID Documents can be deactivated / deleted."
+      "description": "DID Documents can be deactivated."
+    },
+    "deletable": {
+      "type": "boolean",
+      "title": "Deletable",
+      "description": "DID Documents can be  deleted."
+    },
+    "fees": {
+      "type": "boolean",
+      "title": "Explicit Fees",
+      "description": "Creation, modification or deletion of identifiers require a transaction fee, e.g. blockchain-based DID methods often require transaction fees."
+    },
+    "self-certifying": {
+      "type": "boolean",
+      "title": "Self-Certifying",
+      "description": "DID and the initial DID Document are cryptographically bound to one another, e.g. `did:key`."
+    },
+    "rotatable_keys": {
+      "type": "boolean",
+      "title": "Rotatable Keys",
+      "description": "The DID method supports rotation of keys to control the DID."
+    },
+    "pre-rotatable_keys": {
+      "type": "boolean",
+      "title": "Pre-Rotatable Keys",
+      "description": "Cryptographic keys can be pre-rotated to combat key loss and attacks by quantum computers. - Comment by Juan: one thing working with the KERI WG at DIF taught me was that there are like 10 different capabilities/flows that people refer to when they mean rotation. rotation in case of key exfiltration? manual rotation by controller? regular/automated rotation NOT requiring manual controller intervention?"
+    },
+    "modifiable_multi-sig": {
+      "type": "boolean",
+      "title": "Multi-Signature Modifiable",
+      "description": "The method supports multiple DID controllers, with multiple key signatures required to update or deactivate the DID. - Comment by Juan: threshold versus multisig goes all the way back to christopher allan's BTC pre-DID research and some of the oldest did-wg megathreads, worth picking carefully a definition. joe andreiu probably has something detailed written up about this somewhere.."
+    },
+    "human-readable": {
+      "type": "boolean",
+      "title": "Human-readable",
+      "description": "DIDs are human-readable, e.g. `did:web:example.com:me`."
     },
     "enumerable": {
       "type": "boolean",
       "title": "Enumerable",
       "description": "All DIDs of this method can be enumerated, i.e. a public registry like a DLT exists that references all existing DIDs."
     },
-    "globally": {
+    "locally_resolvable": {
       "type": "boolean",
-      "title": "Globally resolvable",
-      "description": "DIDs can be resolved globally, i.e. the current DID document can be resolved globally from every point as opposed to a DID that just exists in a local context."
+      "title": "Locally Resolvable",
+      "description": "DID documents can be resolved in an ephameral local context, e.g. `did:peer`."
+    },
+    "globally_resolvable": {
+      "type": "boolean",
+      "title": "Globally Resolvable",
+      "description": "DID documents can be resolved globally."
+    },
+    "documents": {
+      "type": "boolean",
+      "title": "Documents Hosting",
+      "description": "Additional documents can be hosted with the DID Document and dereferenced via DID paths."
     },
     "history": {
       "type": "boolean",
-      "title": "History available",
-      "description": "Previous versions of DID document are available and can be looked up."
+      "title": "DID Document History",
+      "description": "Previous versions of DID documents are available and can be dereferenced."
     },
-    "immutable": {
+    "history_immutable": {
       "type": "boolean",
-      "title": "Immutable History",
+      "title": "Immutable DID Document History",
       "description": "Changes to DID Documents are persisted in an immutable data structure, e.g. a DLT."
     },
-    "human-readable": {
+    "not_hosted": {
       "type": "boolean",
-      "title": "Human-readable",
-      "description": "DID can be read and remembered by humans, e.g. `did:web:example.com:me`."
+      "title": "Not Hosted",
+      "description": "No hosting of DID Document required, e.g. ephameral `did:key` documents."
     },
-    "pre-rotation": {
+    "centrally_hosted": {
       "type": "boolean",
-      "title": "Key Pre-Rotation",
-      "description": "Cryptographic keys can be pre-rotated to combat key loss and attacks by quantum computers."
+      "title": "Centrally Hosted",
+      "description": "Hosted on a centralized service, e.g. a web server."
     },
-    "modifiable": {
+    "decentrally_hosted": {
       "type": "boolean",
-      "title": "Modifiable",
-      "description": "DID Documents can be modified."
+      "title": "Decentrally Hosted",
+      "description": "Hosted on a decentralized service, e.g. a DLT."
     },
-    "self-certification": {
+    "universal_resolver": {
       "type": "boolean",
-      "title": "Self-Certification",
-      "description": "The initial DID Document is securely derived from the DID itself, e.g. `did:key`."
+      "title": "Universal Resolver Driver",
+      "description": "DID method has a functional Universal Resolver driver."
     },
-    "self-creation": {
+    "universal_registrar": {
       "type": "boolean",
-      "title": "Self-Creation",
-      "description": "DID Document is generative / derived from the DID without having to access any external system, e.g. any `did:key` DID can be derived from the initial public key."
-    },
-    "fees": {
-      "type": "boolean",
-      "title": "Explicit Fees",
-      "description": "Creation, modification or deletion of identifiers trigger transaction fees, e.g. blockchain-based DID methods often require transaction fees."
-    },
-    "hosting": {
-      "type": "boolean",
-      "title": "Hosting",
-      "description": "What kind of hosting is require? None, centralized, decentralized.."
-    },
-    "rotatable": {
-      "type": "boolean",
-      "title": "Rotatable",
-      "description": "The DID method supports rotation of the keys to control the DID (worth calling this out, in addition to pre-rotation, as many methods do not support) - Comment by Juan: one thing working with the KERI WG at DIF taught me was that there are like 10 different capabilities/flows that people refer to when they mean rotation. rotation in case of key exfiltration? manual rotation by controller? regular/automated rotation NOT requiring manual controller intervention?."
-    },
-    "multi-sig": {
-      "type": "boolean",
-      "title": "Multi-sig",
-      "description": "The method supports multiple DID controllers, with multiple key signatures required to update or deactivate the DID - Comment by Juan: same-- threshold versus multisig goes all the way back to christopher allan's BTC pre-DID research and some of the oldest did-wg megathreads, worth picking carefully a definition. joe andreiu probably has something detailed written up about this somewhere.."
-    },
-    "globally_dereferenceable": {
-      "type": "boolean",
-      "title": "Globally dereferenceable",
-      "description": "The DID method supports extensible DID URLs to external resources or to specific versions of the DID Document. - Comment by Juan: split into 3 diff ones: service-specific DID URL support, ?versionTime= support, and ?versionId= support . a surprising number of methods support 1 or 2 but not all 3!."
-    },
-    "publicly_accessible": {
-      "type": "boolean",
-      "title": "Publicly Accessible",
-      "description": "The DID method has a functional Universal Resolver AND Universal Registrar driver - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?."
+      "title": "Universal Registrar Driver",
+      "description": "DID method has a functional Universal Registrar driver. - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?"
     }
   },
   "required": [
