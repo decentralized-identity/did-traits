@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://identity.foundation/did-traits/schmeas/traits.json",
+  "$id": "https://identity.foundation/did-traits/schemas/traits.json",
   "title": "DID Traits",
   "type": "object",
   "properties": {
