@@ -12,8 +12,8 @@
     },
     "url": {
       "type": "string",
-      "title": "DID Specification URL.",
-      "description": "DID Specification URL.",
+      "title": "DID Specification",
+      "description": "URL of DID method specification.",
       "format": "uri"
     },
     "modifiable": {
@@ -122,7 +122,5 @@
       "description": "DID method has a functional Universal Registrar driver. - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?"
     }
   },
-  "required": [
-    "name"
-  ]
+  "required": ["name"]
 }
