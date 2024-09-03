@@ -63,6 +63,8 @@ TODO
 
 Table generated from JSON Schema: https://identity.foundation/did-traits/schemas/traits.json
 
+Contribute here: https://github.com/decentralized-identity/did-traits/blob/main/schemas/traits.json
+
 | Trait                                                        | Definition                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a id="modifiable">Modifiable</a>                            | DID Documents can be modified.                                                                                                                                                                                                                                                                                                                                                                                        |
