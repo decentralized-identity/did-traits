@@ -34,7 +34,7 @@
     "deletable": {
       "type": "boolean",
       "title": "Deletable",
-      "description": "DID Documents can be  deleted."
+      "description": "DID Documents can be deleted."
     },
     "fees": {
       "type": "boolean",
@@ -122,5 +122,7 @@
       "description": "DID method has a functional Universal Registrar driver. - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?"
     }
   },
-  "required": ["name"]
+  "required": [
+    "name"
+  ]
 }
