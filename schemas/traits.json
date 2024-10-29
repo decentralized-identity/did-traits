@@ -10,12 +10,6 @@
       "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
-    "url": {
-      "type": "string",
-      "title": "DID Specification",
-      "description": "URL of DID method specification.",
-      "format": "uri"
-    },
     "modifiable": {
       "type": "boolean",
       "title": "Modifiable",
