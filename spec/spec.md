@@ -47,9 +47,8 @@ cryptographic keys and other fundamental PKI values linked to a unique,
 user-controlled, self-sovereign identifier in a target system (i.e. blockchain,
 distributed ledger).
 
-[[def:Claim, Claims]]
-~ An assertion made about a [[ref:Subject]]. Used as an umbrella term for
-Credential, Assertion, Attestation, etc.
+[[def:Traits, Trait]]
+~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities, or implementation requirements.
 
 ## Structure of this Document
 
