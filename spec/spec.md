@@ -30,23 +30,21 @@ literature and specifications detailed in the [References](#references) section.
 
 ## Status of This Document
 
-This is a draft specification being developed within the
-[Decentralized Identity Foundation](https://identity.foundation) (DIF). Design
-work is ongoing, and participants are
-encouraged to open issues or otherwise contribute at [the DIF-hosted github
-repository](https://github.com/decentralized-identity/did-traits),
+This is a draft specification being developed within the [Decentralized Identity
+Foundation](https://identity.foundation) (DIF). Design work is ongoing, and participants are encouraged to open issues
+or otherwise contribute at [the DIF-hosted github repository](https://github.com/decentralized-identity/did-traits),
 whether as input to stable versions or as recommendations for future versions.
 
 ## Terminology
 
 [[def:Decentralized Identifiers, Decentralized Identifier, DID]]
-~ Unique ID URI string and PKI metadata document format for describing the
-cryptographic keys and other fundamental PKI values linked to a unique,
-user-controlled, self-sovereign identifier in a target system (i.e. blockchain,
-distributed ledger).
+~ Unique ID URI string and PKI metadata document format for describing the cryptographic keys and other fundamental PKI
+values linked to a unique, user-controlled, self-sovereign identifier in a target system (i.e. blockchain, distributed
+ledger).
 
 [[def:Traits, Trait]]
-~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities, or implementation requirements.
+~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities,
+or implementation requirements.
 
 ## Structure of this Document
 
