@@ -106,7 +106,7 @@ like.
 | did:indy                                                                      |
 | did:ebsi                                                                      |
 | did:cheqd                                                                     |
-| did:polygonid                                                                 |
+| [did:iden3](https://github.com/iden3/did-iden3/tree/main)                                                                 |
 
 ## Appendix
 
