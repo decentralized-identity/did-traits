@@ -48,13 +48,21 @@ or implementation requirements.
 
 ## Structure of this Document
 
-TODO
+This specification is organized into three main sections:
 
-## Data Models
+1. [Definition of Traits](#definition-of-traits): Provides detailed definitions and descriptions of identified DID
+   method traits. Each trait is explained in terms of its significance, characteristics, and impact on DID method
+   implementation and usage.
+2. [JSON Schema Data Model](#json-schema-data-model): Presents a formal schema for representing DID method traits in a
+   machine-readable format. This section includes the complete JSON schema definition along with examples illustrating
+   its application.
+3. [Comparison of DID Methods](#comparison-of-did-methods): Contains a comprehensive table comparing different DID
+   methods based on their traits. This comparison enables implementers to evaluate and select DID methods that best
+   match their requirements.
 
-TODO
+The specification references supporting literature and related specifications throughout these sections, with complete references provided at the end of the document.
 
-## Traits
+## Definition of Traits
 
 Table generated from JSON Schema: https://identity.foundation/did-traits/schemas/traits.json
 
@@ -84,7 +92,11 @@ Contribute here: https://github.com/decentralized-identity/did-traits/blob/main/
 | <a id="universal_resolver">Universal Resolver Driver</a>     | DID method has a functional Universal Resolver driver.                                                                                                                                                                                                                                                                                                                                                                |
 | <a id="universal_registrar">Universal Registrar Driver</a>   | DID method has a functional Universal Registrar driver. - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?                                                                                                                                                                                                                                                                   |
 
-## Traits by Identifier
+## JSON Schema Data Model
+
+TODO
+
+## Comparison of DID Methods
 
 INFO: this table is not a deliverable of this work item. It's merely an example of how a comparison table could look
 like.
