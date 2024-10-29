@@ -10,12 +10,6 @@
       "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
-    "url": {
-      "type": "string",
-      "title": "DID Specification",
-      "description": "URL of DID method specification.",
-      "format": "uri"
-    },
     "modifiable": {
       "type": "boolean",
       "title": "Modifiable",
@@ -110,16 +104,6 @@
       "type": "boolean",
       "title": "Decentrally Hosted",
       "description": "Hosted on a decentralized service, e.g. a DLT."
-    },
-    "universal_resolver": {
-      "type": "boolean",
-      "title": "Universal Resolver Driver",
-      "description": "DID method has a functional Universal Resolver driver."
-    },
-    "universal_registrar": {
-      "type": "boolean",
-      "title": "Universal Registrar Driver",
-      "description": "DID method has a functional Universal Registrar driver. - Comment by Juan: should there be some kind of maintenance requirement or stalebot caveat?"
     }
   },
   "required": [
