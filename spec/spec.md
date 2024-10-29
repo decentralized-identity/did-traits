@@ -22,13 +22,11 @@ Except where otherwise noted, this work by the [Decentralized Identity Foundatio
 
 ## Abstract
 
-The purpose of this document is to aid implementers of
-[W3C Decentralized Identifiers (DIDs)](https://w3c.github.io/did-core/) in selecting the most suitable identifier for
-their specific use cases. It does so by identifying and defining key traits of identifiers that have proven to be
-significant. Additionally, it provides a JSON schema for DID method authors, allowing them to present the
-characteristics of their DID methods in a structured and machine-readable format. This structured information can then
-be utilized by third-party systems, such as DID resolvers. This work builds on existing literature and specifications,
-which are detailed in the [References](#references) section.
+This document guides implementers of [W3C Decentralized Identifiers (DIDs)](https://w3c.github.io/did-core/) in
+selecting suitable DID methods for their specific use cases by defining proven and relevant Decentralized Identifiers
+traits. It includes a JSON schema for representing traits of a concrete DID method in a structured, machine-readable
+format, enabling integration with third-party systems such as DID resolvers. This specification builds upon existing
+literature and specifications detailed in the [References](#references) section.
 
 ## Status of This Document
 
