@@ -1,0 +1,21 @@
+{
+  "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
+  "name": "key",
+  "modifiable": false,
+  "service_endpoints": false,
+  "deactivatable": false,
+  "deletable": false,
+  "fees": false,
+  "self-certifying": true,
+  "rotatable_keys": false,
+  "pre-rotatable_keys": false,
+  "modifiable_multi-sig": false,
+  "human-readable": false,
+  "resolvable_locally": false,
+  "resolvable_globally": true,
+  "history": false,
+  "history_signed": false,
+  "hosted_not": true,
+  "hosted_centrally": false,
+  "hosted_decentrally": false
+}
