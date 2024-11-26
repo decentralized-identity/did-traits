@@ -103,7 +103,22 @@
     "hosted_decentrally": {
       "type": "boolean",
       "title": "Decentrally Hosted",
-      "description": "the DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
+      "description": "The DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
+    },
+    "cryptography_privacy_preserving": {
+      "type": "boolean",
+      "title": "Privacy Preserving Cryptography",
+      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Example: BBS."
+    },
+    "cryptography_government-approved": {
+      "type": "boolean",
+      "title": "Government-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by national cryptographic standards bodies. Example: FIPS 186-4."
+    },
+    "gdpr-compliant": {
+      "type": "boolean",
+      "title": "GDPR-compliant",
+      "description": "A DID method's ability to fully adhere to the European Union's General Data Protection Regulation (GDPR) requirements, ensuring comprehensive protection of personal data and individual privacy rights."
     }
   },
   "required": [
