@@ -137,23 +137,23 @@ See ../examples/web.json
 {
   "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
   "name": "web",
-  "modifiable": true,
-  "service_endpoints": true,
+  "updateable": true,
+  "updateableServiceEndpoints": true,
   "deactivatable": true,
   "deletable": true,
-  "fees": false,
-  "self-certifying": false,
-  "rotatable_keys": true,
-  "pre-rotatable_keys": false,
-  "modifiable_multi-sig": false,
-  "human-readable": true,
-  "resolvable_locally": false,
-  "resolvable_globally": true,
+  "explicitFees": false,
+  "selfCertifying": false,
+  "updateableVerificationMethods": true,
+  "prerotationOfKeys": false,
+  "multisigVerificationMethod": false,
+  "humanreadable": true,
+  "resolvableLocally": false,
+  "resolvableGlobally": true,
   "history": false,
-  "history_signed": false,
-  "hosted_not": false,
-  "hosted_centrally": true,
-  "hosted_decentrally": false
+  "historySigned": false,
+  "hostedNot": false,
+  "hostedCentrally": true,
+  "hostedDecentrally": false
 }
 ```
 
