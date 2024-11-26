@@ -12,9 +12,13 @@
 
 <!-- -->
 
-**Participate:** ~ [GitHub repo](https://github.com/decentralized-identity/did-traits) ~
-[File a bug](https://github.com/decentralized-identity/did-traits/issues) ~
-[Commit history](https://github.com/decentralized-identity/did-traits/commits/main)
+**Participate:**
+
+~ [GitHub repo](https://github.com/decentralized-identity/did-traits)
+
+~ [File a bug](https://github.com/decentralized-identity/did-traits/issues)
+
+~ [Commit history](https://github.com/decentralized-identity/did-traits/commits/main)
 
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is
 licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
@@ -37,12 +41,16 @@ versions or as recommendations for future versions.
 
 ## Terminology
 
-[[def:Decentralized Identifiers, Decentralized Identifier, DID]] ~ Unique ID URI string and PKI metadata document format
-for describing the cryptographic keys and other fundamental PKI values linked to a unique, user-controlled,
-self-sovereign identifier in a target system (i.e. blockchain, distributed ledger).
+[[def:Decentralized Identifiers, Decentralized Identifier, DID]]
 
-[[def:Traits, Trait]] ~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its
-behavior, capabilities, or implementation requirements.
+~ Unique ID URI string and PKI metadata document format for describing the cryptographic keys and other fundamental PKI
+values linked to a unique, user-controlled, self-sovereign identifier in a target system (i.e. blockchain, distributed
+ledger).
+
+[[def:Traits, Trait]]
+
+~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities,
+or implementation requirements.
 
 ## Structure of this Document
 
@@ -150,8 +158,8 @@ like.
 
 ### Informative References
 
-[[def:JSON Schema]] ~
-[JSON Schema: A Media Type for Describing JSON Documents](https://json-schema.org/draft/2020-12/json-schema-core.html).
+[[def:JSON Schema]]
+~ [JSON Schema: A Media Type for Describing JSON Documents](https://json-schema.org/draft/2020-12/json-schema-core.html).
 A. Wright, H. Andrews, B. Hutton, G. Dennis. Status: 28 January 2020. Status: Internet-Draft.
 
 ## Patent Policy
