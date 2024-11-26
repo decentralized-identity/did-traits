@@ -40,22 +40,22 @@
       "title": "Self-Certifying",
       "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
     },
-    "updateable_verification_methods": {
+    "updateableVerificationMethods": {
       "type": "boolean",
       "title": "Rotatable Verification Methods",
       "description": "Verification methods are updateable, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
-    "pre-rotation_of_keys": {
+    "prerotationOfKeys": {
       "type": "boolean",
       "title": "Pre-rotation of Keys",
       "description": "Cryptographic mechanism that enables a DID controller to securely commit to a future key rotation without revealing the actual replacement public key. This technique creates a verifiable, one-way commitment to the next cryptographic key pair, preventing malicious actors who compromise the current private key from arbitrarily rotating to a new key of their choosing."
     },
-    "multi-sig_verification_method": {
+    "multisigVerificationMethod": {
       "type": "boolean",
       "title": "Multi-Signature Verification Method",
       "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating, deactivating or using the DID."
     },
-    "human-readable": {
+    "humanreadable": {
       "type": "boolean",
       "title": "Human-readable",
       "description": "A DID method's ability to generate identifiers that are cognitively accessible and memorable to humans, typically incorporating meaningful, domain-specific, or intuitive components."
@@ -65,12 +65,12 @@
       "title": "Enumerable",
       "description": "A DID method where all identifiers within the system can be comprehensively discovered and listed through a publicly accessible registry, typically implemented using a distributed ledger technology (DLT) or similar transparent infrastructure."
     },
-    "resolvable_locally": {
+    "resolvableLocally": {
       "type": "boolean",
       "title": "Locally Resolvable",
       "description": "A DID method where identifiers and their associated DID documents are resolvable and verifiable only within a specific, transient local context."
     },
-    "resolvable_globally": {
+    "resolvableGlobally": {
       "type": "boolean",
       "title": "Globally Resolvable",
       "description": "A DID method where identifiers can be resolved from any network location, enabling universal access to the associated DID document across diverse computational environments and geographic boundaries."
@@ -80,37 +80,37 @@
       "title": "DID Document History",
       "description": "A DID method's capability to preserve and retrieve previous versions of a DID document, enabling comprehensive historical traceability of identity metadata and modifications."
     },
-    "history_signed": {
+    "historySigned": {
       "type": "boolean",
       "title": "Cryptograhpically signed DID Document History",
       "description": "A DID method's capability to record all modifications to the DID document in an append-only, cryptographically verifiable data structure that prevents retroactive alteration or deletion of historical states."
     },
-    "hosted_not": {
+    "hostedNot": {
       "type": "boolean",
       "title": "Not Hosted",
       "description": "dID document is generated and verified entirely through cryptographic mechanisms, without requiring persistent storage or external hosting infrastructure."
     },
-    "hosted_centrally": {
+    "hostedCentrally": {
       "type": "boolean",
       "title": "Centrally Hosted",
       "description": "The DID document is stored and managed through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
     },
-    "hosted_decentrally": {
+    "hostedDecentrally": {
       "type": "boolean",
       "title": "Decentrally Hosted",
       "description": "The DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
-    "cryptography_privacy_preserving": {
+    "cryptographyPrivacyPreserving": {
       "type": "boolean",
       "title": "Privacy Preserving Cryptography",
       "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Example: BBS."
     },
-    "cryptography_government-approved": {
+    "cryptographyGovernmentApproved": {
       "type": "boolean",
       "title": "Government-approved Cryptography",
       "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by national cryptographic standards bodies. Example: FIPS 186-4."
     },
-    "gdpr-compliant": {
+    "gdpr": {
       "type": "boolean",
       "title": "GDPR-compliant",
       "description": "A DID method's ability to fully adhere to the European Union's General Data Protection Regulation (GDPR) requirements, ensuring comprehensive protection of personal data and individual privacy rights."
