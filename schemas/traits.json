@@ -15,7 +15,7 @@
       "title": "Updateable",
       "description": "DID Documents are updateable, see https://w3c.github.io/did-core/#method-operations."
     },
-    "updateable_service_endpoints": {
+    "updateableServiceEndpoints": {
       "type": "boolean",
       "title": "Updateable Service Endpoints",
       "description": "Service endpoints are updateable, see https://w3c.github.io/did-core/#services."
@@ -30,12 +30,12 @@
       "title": "Deletable",
       "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical irresolvable."
     },
-    "explicit_fees": {
+    "explicitFees": {
       "type": "boolean",
       "title": "Explicit Fees",
       "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
     },
-    "self-certifying": {
+    "selfCertifying": {
       "type": "boolean",
       "title": "Self-Certifying",
       "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
@@ -110,7 +110,7 @@
       "title": "Government-approved Cryptography",
       "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by national cryptographic standards bodies. Example: FIPS 186-4."
     },
-    "gdpr": {
+    "gdprCompliant": {
       "type": "boolean",
       "title": "GDPR-compliant",
       "description": "A DID method's ability to fully adhere to the European Union's General Data Protection Regulation (GDPR) requirements, ensuring comprehensive protection of personal data and individual privacy rights."
