@@ -10,15 +10,15 @@
       "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
-    "modifiable": {
+    "updateable": {
       "type": "boolean",
-      "title": "Modifiable",
-      "description": "DID Documents are modifiable, see https://w3c.github.io/did-core/#method-operations."
+      "title": "Updateable",
+      "description": "DID Documents are updateable, see https://w3c.github.io/did-core/#method-operations."
     },
-    "service_endpoints": {
+    "updateable_service_endpoints": {
       "type": "boolean",
-      "title": "Service Endpoints",
-      "description": "Service endpoints are modifiable, see https://w3c.github.io/did-core/#services."
+      "title": "Updateable Service Endpoints",
+      "description": "Service endpoints are updateable, see https://w3c.github.io/did-core/#services."
     },
     "deactivatable": {
       "type": "boolean",
@@ -28,32 +28,32 @@
     "deletable": {
       "type": "boolean",
       "title": "Deletable",
-      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical metadata irrecoverable."
+      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical irresolvable."
     },
-    "fees": {
+    "explicit_fees": {
       "type": "boolean",
       "title": "Explicit Fees",
-      "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation. "
+      "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
     },
     "self-certifying": {
       "type": "boolean",
       "title": "Self-Certifying",
       "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
     },
-    "rotatable_keys": {
+    "updateable_verification_methods": {
       "type": "boolean",
-      "title": "Rotatable Keys",
-      "description": "Verification methods are modifiable, allowing cryptographic keys can be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
+      "title": "Rotatable Verification Methods",
+      "description": "Verification methods are updateable, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
     "pre-rotation_of_keys": {
       "type": "boolean",
       "title": "Pre-rotation of Keys",
       "description": "Cryptographic mechanism that enables a DID controller to securely commit to a future key rotation without revealing the actual replacement public key. This technique creates a verifiable, one-way commitment to the next cryptographic key pair, preventing malicious actors who compromise the current private key from arbitrarily rotating to a new key of their choosing."
     },
-    "modifiable_multi-sig": {
+    "multi-sig_verification_method": {
       "type": "boolean",
-      "title": "Multi-Signature Modifiable",
-      "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating or deactivating the DID."
+      "title": "Multi-Signature Verification Method",
+      "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating, deactivating or using the DID."
     },
     "human-readable": {
       "type": "boolean",
@@ -68,17 +68,17 @@
     "resolvable_locally": {
       "type": "boolean",
       "title": "Locally Resolvable",
-      "description": "A DID method where identifiers and their associated DID documents are valid only within a specific, transient local context."
+      "description": "A DID method where identifiers and their associated DID documents are resolvable and verifiable only within a specific, transient local context."
     },
     "resolvable_globally": {
       "type": "boolean",
       "title": "Globally Resolvable",
       "description": "A DID method where identifiers can be resolved from any network location, enabling universal access to the associated DID document across diverse computational environments and geographic boundaries."
     },
-    "hosted_documents": {
+    "todo-remove--well_known_urls": {
       "type": "boolean",
-      "title": "Document Hosting",
-      "description": "A DID method's capability to store and retrieve supplementary documents directly associated with the primary DID document through a standardized dereferencing mechanism using DID paths."
+      "title": "Well Known Service Paths",
+      "description": "A DID method's capability to store and retrieve supplementary documents directly associated with the primary DID document through a standardized dereferencing mechanism using DID paths. - Service Paths"
     },
     "history": {
       "type": "boolean",
