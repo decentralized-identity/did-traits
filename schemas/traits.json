@@ -75,11 +75,6 @@
       "title": "Globally Resolvable",
       "description": "A DID method where identifiers can be resolved from any network location, enabling universal access to the associated DID document across diverse computational environments and geographic boundaries."
     },
-    "todo-remove--well_known_urls": {
-      "type": "boolean",
-      "title": "Well Known Service Paths",
-      "description": "A DID method's capability to store and retrieve supplementary documents directly associated with the primary DID document through a standardized dereferencing mechanism using DID paths. - Service Paths"
-    },
     "history": {
       "type": "boolean",
       "title": "DID Document History",
