@@ -106,26 +106,72 @@ Generated with ../generate-markdown-table.nu
 
 ## JSON Schema Data Model
 
-TODO
+The specification defines a normative JSON Schema data model for documenting and representing DID method traits in a
+machine-readable format. The canonical schema is formally defined at
+<https://identity.foundation/did-traits/schemas/traits.json>.
+
+DID method authors SHALL use this schema to describe their method's trait support. The schema is structured with two
+primary components:
+
+- A `name` property of type string identifying the specific DID method.
+- Traits properties of type boolean.
+
+All traits are represented as boolean values with the following semantics:
+
+- `true` indicates explicit support for the corresponding trait
+- `false` explicitly indicates non-support of the trait.
+- Omission of a trait property is equivalent to `false`.
+
+Conforming implementations MUST validate their trait documentation against this JSON Schema, ensuring consistent and
+unambiguous representation of DID method capabilities.
+
+### Example
+
+This example demonstrates a complete JSON representation of the did:web DID method, illustrating the schema's structure.
+
+<!--
+See ../examples/web.json
+-->
+
+```json
+{
+  "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
+  "name": "web",
+  "modifiable": true,
+  "service_endpoints": true,
+  "deactivatable": true,
+  "deletable": true,
+  "fees": false,
+  "self-certifying": false,
+  "rotatable_keys": true,
+  "pre-rotatable_keys": false,
+  "modifiable_multi-sig": false,
+  "human-readable": true,
+  "resolvable_locally": false,
+  "resolvable_globally": true,
+  "history": false,
+  "history_signed": false,
+  "hosted_not": false,
+  "hosted_centrally": true,
+  "hosted_decentrally": false
+}
+```
 
 ## Comparison of DID Methods
 
-INFO: this table is not a deliverable of this work item. It's merely an example of how a comparison table could look
-like.
+The following table provides a comprehensive overview of trait support across multiple DID methods, enabling a
+systematic comparison of their capabilities.
 
-| Method \ Trait                                                                | [Deactivatable](#deactivatable) | [Enumerable](#enumerable) | [Globally resolvable](#globally) | [History available](#history) | [Immutable History](#immutable) | [Human-readable](#human-readable) | [Key Pre-Rotation](#pre-rotation) | [Modifiable](#modifiable) | [Self-Certification](#self-certification) | [Self-Creation](#self-creation) | [Explicit fees](#fees) |
-| ----------------------------------------------------------------------------- | ------------------------------- | ------------------------- | -------------------------------- | ----------------------------- | ------------------------------- | --------------------------------- | --------------------------------- | ------------------------- | ----------------------------------------- | ------------------------------- | ---------------------- |
-| [did:tdw](https://bcgov.github.io/trustdidweb/)                               | [`x`](#x)                       |                           | [`x`](#x)                        | [`x`](#x)                     | [`x`](#x)                       |                                   | [`x`](#x)                         | [`x`](#x)                 | [`x`](#x)                                 |                                 |                        |
-| [did:web](https://w3c-ccg.github.io/did-method-web/)                          | [`x`](#x)                       |                           | [`x`](#x)                        |                               |                                 | [`x`](#x)                         |                                   | [`x`](#x)                 |                                           |                                 |                        |
-| did:key                                                                       |                                 |                           | [`x`](#x)                        |                               |                                 |                                   |                                   |                           | [`x`](#x)                                 | [`x`](#x)                       |                        |
-| did:jwk                                                                       |                                 |                           | [`x`](#x)                        |                               |                                 |                                   |                                   |                           | [`x`](#x)                                 | [`x`](#x)                       |                        |
-| did:peer                                                                      |                                 |                           |                                  | [`x`](#x)                     |                                 |                                   |                                   | [`x`](#x)                 | [`x`](#x)                                 | [`x`](#x)                       |                        |
-| did:dht                                                                       | [`x`](#x)                       | [`x`](#x)                 | [`x`](#x)                        | [`x`](#x)                     | [`?`](#?)                       |                                   | [`?`](#?)                         | [`x`](#x)                 | [`?`](#?)                                 | [`?`](#?)                       |                        |
-| [did:webs](https://trustoverip.github.io/tswg-did-method-webs-specification/) |                                 |                           |                                  |                               |                                 |                                   |                                   |                           |                                           |                                 |                        |
-| did:indy                                                                      |                                 |                           |                                  |                               |                                 |                                   |                                   |                           |                                           |                                 |                        |
-| did:ebsi                                                                      |                                 |                           |                                  |                               |                                 |                                   |                                   |                           |                                           |                                 |                        |
-| did:cheqd                                                                     |                                 |                           |                                  |                               |                                 |                                   |                                   |                           |                                           |                                 |                        |
-| [did:iden3](https://github.com/iden3/did-iden3/tree/main)                     |                                 |                           |                                  |                               |                                 |                                   |                                   |                           |                                           |                                 |                        |
+<!--
+Generated via ../generate-markdown-table-comparison.nu
+-->
+
+| Method                                                                | [Updateable](#updateable) | [Updateable Service Endpoints](#updateable_service_endpoints) | [Deactivatable](#deactivatable) | [Deletable](#deletable) | [Explicit Fees](#explicit_fees) | [Self-Certifying](#self-certifying) | [Rotatable Verification Methods](#updateable_verification_methods) | [Pre-rotation of Keys](#pre-rotation_of_keys) | [Multi-Signature Verification Method](#multi-sig_verification_method) | [Human-readable](#human-readable) | [Enumerable](#enumerable) | [Locally Resolvable](#resolvable_locally) | [Globally Resolvable](#resolvable_globally) | [DID Document History](#history) | [Cryptograhpically signed DID Document History](#history_signed) | [Not Hosted](#hosted_not) | [Centrally Hosted](#hosted_centrally) | [Decentrally Hosted](#hosted_decentrally) | [Privacy Preserving Cryptography](#cryptography_privacy_preserving) | [Government-approved Cryptography](#cryptography_government-approved) | [GDPR-compliant](#gdpr-compliant) |
+| --------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------- | ------------------------------- | ----------------------- | ------------------------------- | ----------------------------------- | ------------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------------------------------- | --------------------------------- | ------------------------- | ----------------------------------------- | ------------------------------------------- | -------------------------------- | ---------------------------------------------------------------- | ------------------------- | ------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------- |
+| [did:key](https://www.w3.org/TR/did-extensions-methods/#did-methods)  |                           |                                                               |                                 |                         |                                 | ✅                                  |                                                                    |                                               |                                                                       |                                   |                           |                                           | ✅                                          |                                  |                                                                  | ✅                        |                                       |                                           |                                                                     |                                                                       |                                   |
+| [did:peer](https://www.w3.org/TR/did-extensions-methods/#did-methods) | ✅                        | ✅                                                            |                                 |                         |                                 | ✅                                  | ✅                                                                 |                                               |                                                                       |                                   |                           | ✅                                        |                                             |                                  |                                                                  | ✅                        |                                       |                                           |                                                                     |                                                                       |                                   |
+| [did:tdw](https://www.w3.org/TR/did-extensions-methods/#did-methods)  | ✅                        | ✅                                                            | ✅                              | ✅                      |                                 | ✅                                  | ✅                                                                 | ✅                                            |                                                                       |                                   |                           |                                           | ✅                                          | ✅                               | ✅                                                               |                           | ✅                                    |                                           |                                                                     |                                                                       |                                   |
+| [did:web](https://www.w3.org/TR/did-extensions-methods/#did-methods)  | ✅                        | ✅                                                            | ✅                              | ✅                      |                                 |                                     | ✅                                                                 |                                               |                                                                       | ✅                                |                           |                                           | ✅                                          |                                  |                                                                  |                           | ✅                                    |                                           |                                                                     |                                                                       |                                   |
 
 ## Appendix
 
