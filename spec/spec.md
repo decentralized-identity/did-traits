@@ -106,7 +106,56 @@ Generated with ../generate-markdown-table.nu
 
 ## JSON Schema Data Model
 
-TODO
+The specification defines a normative JSON Schema data model for documenting and representing DID method traits in a
+machine-readable format. The canonical schema is formally defined at
+<https://identity.foundation/did-traits/schemas/traits.json>.
+
+DID method authors SHALL use this schema to describe their method's trait support. The schema is structured with two
+primary components:
+
+- A `name` property of type string identifying the specific DID method.
+- Traits properties of type boolean.
+
+All traits are represented as boolean values with the following semantics:
+
+- `true` indicates explicit support for the corresponding trait
+- `false` explicitly indicates non-support of the trait.
+- Omission of a trait property is equivalent to `false`.
+
+Conforming implementations MUST validate their trait documentation against this JSON Schema, ensuring consistent and
+unambiguous representation of DID method capabilities.
+
+### Example
+
+This example demonstrates a complete JSON representation of the did:web DID method, illustrating the schema's structure.
+
+<!--
+See ../examples/web.json
+-->
+
+```json
+{
+  "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
+  "name": "web",
+  "modifiable": true,
+  "service_endpoints": true,
+  "deactivatable": true,
+  "deletable": true,
+  "fees": false,
+  "self-certifying": false,
+  "rotatable_keys": true,
+  "pre-rotatable_keys": false,
+  "modifiable_multi-sig": false,
+  "human-readable": true,
+  "resolvable_locally": false,
+  "resolvable_globally": true,
+  "history": false,
+  "history_signed": false,
+  "hosted_not": false,
+  "hosted_centrally": true,
+  "hosted_decentrally": false
+}
+```
 
 ## Comparison of DID Methods
 
