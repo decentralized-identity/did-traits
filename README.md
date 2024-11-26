@@ -1,28 +1,25 @@
-# DIF Work Item Repo Template
+# DID Traits
 
-## About
+[Latest Editor's Draft](https://identity.foundation/did-traits/)
 
-This template is for use with DIF Working Group work items creating specifications.
+This document guides implementers of [W3C Decentralized Identifiers (DIDs)](https://w3c.github.io/did-core/) in
+selecting suitable DID methods for their specific use cases by defining proven and relevant Decentralized Identifiers
+traits. It includes a JSON schema for representing traits of a concrete DID method in a structured, machine-readable
+format, enabling integration with third-party systems such as DID resolvers..
 
-## Template Instructions
+## Known Implementations
 
-- [Done] Find/replace "template-for-work-items" with work item name
-- Update content in AGENDA.md and [set up hackmd integration](https://hackmd.io/s/link-with-github)
-  - Make sure you add the hackmd badge to the AGENDA.md file
-- Update CONTRIBUTING.md with any group-specific processes
-- Update the README (all content and links in this file)
-- Update github repo settings, including tags
+| Name                                                                               | Description                                                                        | Author                                 |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------- |
+| [Universal Resolver](https://github.com/decentralized-identity/universal-resolver) | Experimental support for returning DID Traits documents via the Universal Resolver | [Danube Tech](https://danubetech.com/) |
 
-## [Latest Editor's Draft](https://identity.foundation/did-traits/)
-
-## Getting Started
+## Edit Specification
 
 ```
 git clone git@github.com:decentralized-identity/did-traits.git
-cd template-for-work-items
 npm i
 npm run edit
 npx serve build
 ```
 
-Visit http://localhost:5000/
+Visit <http://localhost:5000/>
