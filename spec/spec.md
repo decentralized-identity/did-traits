@@ -76,10 +76,6 @@ methods fundamentally support core operations for creating and retrieving DID do
 traits that reflect their unique design. These traits have been identified through analysis of existing DID methods and
 their real-world implementations. Each trait definition includes its name and description.
 
-Table generated from JSON Schema: https://identity.foundation/did-traits/schemas/traits.json
-
-Contribute here: https://github.com/decentralized-identity/did-traits/blob/main/schemas/traits.json
-
 <!--
 Generated with ../generate-markdown-table.nu
 -->
