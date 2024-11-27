@@ -187,7 +187,7 @@ Generated via ../generate-markdown-table-comparison.nu
 - [SpruceID Ugradeable Decentralized Identity - DID Method Traits](https://blog.spruceid.com/upgradeable-decentralized-identity/):
   Proposal from 2022 to produce a list of DID Method Traits. The list wasn't create, however a number of traits are
   proposed in the blog post.
-- [OWF](https://openwallet-foundation.github.io/credential-format-comparison-sig/#/resources/Key%20Management)
+- [OWF](https://openwallet-foundation.github.io/digital-wallet-and-agent-overviews-sig/#/resources/Key%20Management)
 - [DID Enumeration](https://hackmd.io/qz2Mbx7_RuOVLf9YQnz_rA?view)
 - [ToIP DID Utility Comparison](https://docs.google.com/spreadsheets/d/18MpvpFPLjL2I7RSFI44heWrrvf3l9pAArzhznAPFVAQ/edit?gid=0#gid=0)
 - [DID:X Continued: The Perfect DID Method?](https://decentralgabe.xyz/did-x-continued-the-perfect-did-method/)
