@@ -110,10 +110,10 @@
       "title": "Government-approved Cryptography",
       "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by national cryptographic standards bodies. Example: FIPS 186-4."
     },
-    "gdprCompliant": {
+    "dataProtectionCompliant": {
       "type": "boolean",
-      "title": "GDPR-compliant",
-      "description": "A DID method's ability to fully adhere to the European Union's General Data Protection Regulation (GDPR) requirements, ensuring comprehensive protection of personal data and individual privacy rights."
+      "title": "Data Protection-compliant",
+      "description": "A DID method's ability to fully adhere to data protection regulation requirements, ensuring comprehensive protection of personal data and individual privacy rights. For example: GDPR (EU), LGPD (Brasil), DPDP (India)."
     }
   },
   "required": [
