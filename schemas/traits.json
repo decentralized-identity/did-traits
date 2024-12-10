@@ -30,9 +30,9 @@
       "title": "Deletable",
       "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical irresolvable."
     },
-    "explicitFees": {
+    "transactionalFees": {
       "type": "boolean",
-      "title": "Explicit Fees",
+      "title": "Transactional Fees",
       "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
     },
     "selfCertifying": {
