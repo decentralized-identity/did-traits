@@ -5,17 +5,21 @@
   "updateableServiceEndpoints": true,
   "deactivatable": true,
   "deletable": true,
-  "explicitFees": false,
+  "transactionalFees": false,
   "selfCertifying": true,
   "updateableVerificationMethods": true,
   "prerotationOfKeys": true,
   "multisigVerificationMethod": false,
   "humanreadable": false,
+  "enumerable": false,
   "resolvableLocally": false,
   "resolvableGlobally": true,
   "history": true,
   "historySigned": true,
   "hostedNot": false,
   "hostedCentrally": true,
-  "hostedDecentrally": false
+  "hostedDecentrally": false,
+  "cryptographyPrivacyPreserving": false,
+  "cryptographyGovernmentApproved": true,
+  "dataProtectionCompliant": false
 }
