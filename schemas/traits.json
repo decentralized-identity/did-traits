@@ -85,20 +85,20 @@
       "title": "Cryptograhpically signed DID Document History",
       "description": "A DID method's capability to record all modifications to the DID document in an append-only, cryptographically verifiable data structure that prevents retroactive alteration or deletion of historical states."
     },
-    "hostedNot": {
+    "hostingNotRequired": {
       "type": "boolean",
-      "title": "Not Hosted",
-      "description": "dID document is generated and verified entirely through cryptographic mechanisms, without requiring persistent storage or external hosting infrastructure."
+      "title": "Hosting not required",
+      "description": "DID document hosting on persistent storage is not required, at least for the initial DID document. For example: did:key and did:peer."
     },
     "hostedCentrally": {
       "type": "boolean",
       "title": "Centrally Hosted",
-      "description": "The DID document is stored and managed through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
+      "description": "DID document is stored and managed and resolved through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
     },
     "hostedDecentrally": {
       "type": "boolean",
       "title": "Decentrally Hosted",
-      "description": "The DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
+      "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
     "cryptographyPrivacyPreserving": {
       "type": "boolean",
