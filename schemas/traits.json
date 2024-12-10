@@ -107,8 +107,8 @@
     },
     "cryptographyGovernmentApproved": {
       "type": "boolean",
-      "title": "Government-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by national cryptographic standards bodies. Example: FIPS 186-4."
+      "title": "Government-approved Cryptography by two Countries",
+      "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by two national cryptographic standards bodies. For example: NIST and ENISA."
     },
     "dataProtectionCompliant": {
       "type": "boolean",
