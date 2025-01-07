@@ -258,9 +258,6 @@ Generated via ../generate-markdown-table-comparison.nu
 | [Centrally Hosted](#hostedCentrally)                                                 |                                                                      |                                                                       |                                                                    |
 | [Decentrally Hosted](#hostedDecentrally)                                             |                                                                      |                                                                       |  ✅                                                                    |    
 | [Privacy Preserving Cryptography](#cryptographyPrivacyPreserving)                    |                                                                      |                                                                       |   ✅                                                                   |    
-| [Government-approved Cryptography by two Countries](#cryptographyGovernmentApproved) |                                                                    |                                                                     | ✅                                                                   | 
-| [Data Protection-compliant](#dataProtectionCompliant)                                |                                                                      |                                                                       |                                                                      |    
-
 
 ## Appendix
 
