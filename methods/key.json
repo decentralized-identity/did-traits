@@ -19,7 +19,18 @@
   "hostingNotRequired": true,
   "hostedCentrally": false,
   "hostedDecentrally": false,
+  "dataProtectionCompliant": false,
   "cryptographyPrivacyPreserving": false,
-  "cryptographyGovernmentApproved": true,
-  "dataProtectionCompliant": false
+  "cryptographyGovernmentApprovedARE": false,
+  "cryptographyGovernmentApprovedAUS": false,
+  "cryptographyGovernmentApprovedBRA": false,
+  "cryptographyGovernmentApprovedCAN": false,
+  "cryptographyGovernmentApprovedCHN": false,
+  "cryptographyGovernmentApprovedEU": false,
+  "cryptographyGovernmentApprovedIND": false,
+  "cryptographyGovernmentApprovedISR": false,
+  "cryptographyGovernmentApprovedJPN": false,
+  "cryptographyGovernmentApprovedKOR": false,
+  "cryptographyGovernmentApprovedRUS": false,
+  "cryptographyGovernmentApprovedUSA": false
 }
