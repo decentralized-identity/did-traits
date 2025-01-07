@@ -10,6 +10,11 @@
 
 ~ [Jan Christoph Ebersbach](https://www.linkedin.com/in/JCEbersbach) (identinet)
 
+**Authors:**
+
+~ [Jan Christoph Ebersbach](https://www.linkedin.com/in/JCEbersbach) (identinet)
+~ [Otto Mora](https://www.linkedin.com/in/otto-mora/) (Privado ID)
+
 <!-- -->
 
 **Participate:**
@@ -42,13 +47,11 @@ versions or as recommendations for future versions.
 ## Terminology
 
 [[def:Decentralized Identifiers, Decentralized Identifier, DID]]
-
 ~ Unique ID URI string and PKI metadata document format for describing the cryptographic keys and other fundamental PKI
 values linked to a unique, user-controlled, self-sovereign identifier in a target system (i.e. blockchain, distributed
 ledger).
 
 [[def:Traits, Trait]]
-
 ~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities,
 or implementation requirements.
 
@@ -255,8 +258,8 @@ Generated via ../generate-markdown-table-comparison.nu
 
 ### Informative References
 
-[[def:JSON Schema]] ~
-[JSON Schema: A Media Type for Describing JSON Documents](https://json-schema.org/draft/2020-12/json-schema-core.html).
+[[def:JSON Schema]]
+~ [JSON Schema: A Media Type for Describing JSON Documents](https://json-schema.org/draft/2020-12/json-schema-core.html).
 A. Wright, H. Andrews, B. Hutton, G. Dennis. Status: 28 January 2020. Status: Internet-Draft.
 
 ## Patent Policy
