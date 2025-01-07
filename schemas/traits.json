@@ -100,20 +100,75 @@
       "title": "Decentrally Hosted",
       "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
+    "dataProtectionCompliant": {
+      "type": "boolean",
+      "title": "Data Protection-compliant",
+      "description": "A DID method's ability to fully adhere to data protection regulation requirements, ensuring comprehensive protection of personal data and individual privacy rights. For example: GDPR (EU), LGPD (Brasil), DPDP (India)."
+    },
     "cryptographyPrivacyPreserving": {
       "type": "boolean",
       "title": "Privacy Preserving Cryptography",
       "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. For example: privacy techniques as zk-snarks and zk-starks."
     },
-    "cryptographyGovernmentApproved": {
+    "cryptographyGovernmentApprovedARE": {
       "type": "boolean",
-      "title": "Government-approved Cryptography by two Countries",
-      "description": "A DID method that implements cryptographic algorithms and protocols explicitly validated and recommended by two national cryptographic standards bodies. For example: NIST and ENISA."
+      "title": "United Arab Emirates TDRA-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
     },
-    "dataProtectionCompliant": {
+    "cryptographyGovernmentApprovedAUS": {
       "type": "boolean",
-      "title": "Data Protection-compliant",
-      "description": "A DID method's ability to fully adhere to data protection regulation requirements, ensuring comprehensive protection of personal data and individual privacy rights. For example: GDPR (EU), LGPD (Brasil), DPDP (India)."
+      "title": "Australia ASD-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedBRA": {
+      "type": "boolean",
+      "title": "Brasil ICP-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedCAN": {
+      "type": "boolean",
+      "title": "Canada CSE-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedCHN": {
+      "type": "boolean",
+      "title": "China SM-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedEU": {
+      "type": "boolean",
+      "title": "European Union ETSI/ENISA-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedIND": {
+      "type": "boolean",
+      "title": "India CCA-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedISR": {
+      "type": "boolean",
+      "title": "Israel SCALPEL-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedJPN": {
+      "type": "boolean",
+      "title": "Japan CRYPTREC-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedKOR": {
+      "type": "boolean",
+      "title": "South Korea KCMVP-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedRUS": {
+      "type": "boolean",
+      "title": "Russia GOST-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+    },
+    "cryptographyGovernmentApprovedUSA": {
+      "type": "boolean",
+      "title": "United States of America NIST-approved Cryptography",
+      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
     }
   },
   "required": [
