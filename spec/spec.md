@@ -196,8 +196,6 @@ Generated via ../generate-markdown-table-comparison.nu
 -->
 
 
-### Non-DLT based methods
-
 | Trait                                                                                     | [did:key](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:peer](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:web](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:webvh](https://www.w3.org/TR/did-extensions-methods/#did-methods) |
 | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Trait                                                                                     | [did:key](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:peer](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:web](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:webvh](https://www.w3.org/TR/did-extensions-methods/#did-methods) |
@@ -234,8 +232,6 @@ Generated via ../generate-markdown-table-comparison.nu
 | [Russia GOST-approved Cryptography](#cryptographyGovernmentApprovedRUS)                   |                                                                      |                                                                       |                                                                      |                                                                        |
 | [United States of America NIST-approved Cryptography](#cryptographyGovernmentApprovedUSA) |                                                                      |                                                                       |                                                                      |                                                                        |
 
-
-### DLT based methods
 
 | Trait                                                                                | [did:cheqd](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:ebsi](https://www.w3.org/TR/did-extensions-methods/#did-methods) | [did:iden3](https://www.w3.org/TR/did-extensions-methods/#did-methods) |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
