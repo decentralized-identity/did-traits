@@ -15,7 +15,6 @@
 ~ [Jan Christoph Ebersbach](https://www.linkedin.com/in/JCEbersbach) (identinet)
 ~ [Otto Mora](https://www.linkedin.com/in/otto-mora/) (Privado ID)
 
-<!-- -->
 
 **Participate:**
 
@@ -46,14 +45,12 @@ versions or as recommendations for future versions.
 
 ## Terminology
 
-[[def:Decentralized Identifiers, Decentralized Identifier, DID]]
-~ Unique ID URI string and PKI metadata document format for describing the cryptographic keys and other fundamental PKI
-values linked to a unique, user-controlled, self-sovereign identifier in a target system (i.e. blockchain, distributed
-ledger).
+[[def:Decentralized Identifiers, Decentralized Identifier, DID]] ~ Unique ID URI string and PKI metadata document format
+for describing the cryptographic keys and other fundamental PKI values linked to a unique, user-controlled,
+self-sovereign identifier in a target system (i.e. blockchain, distributed ledger).
 
-[[def:Traits, Trait]]
-~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its behavior, capabilities,
-or implementation requirements.
+[[def:Traits, Trait]] ~ A distinct, measurable characteristic of a Decentralized Identifier method that influences its
+behavior, capabilities, or implementation requirements.
 
 ## Structure of this Document
 
@@ -103,8 +100,9 @@ Generated with ../generate-markdown-table-traits.nu
 | <a id="hostingNotRequired">Hosting not required</a>                                               | DID document hosting on persistent storage is not required, at least for the initial DID document. For example: did:key and did:peer.                                                                                                                                                                                                                                                                                                              |
 | <a id="hostedCentrally">Centrally Hosted</a>                                                      | DID document is stored and managed and resolved through a single, centralized service infrastructure, typically implemented using a web server or controlled repository.                                                                                                                                                                                                                                                                           |
 | <a id="hostedDecentrally">Decentrally Hosted</a>                                                  | DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks.                                                                                                                                                                                                                                                                  |
-| <a id="cryptographyPrivacyPreserving">Privacy Preserving Cryptography</a>                         | A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. For example: privacy techniques as zk-snarks and zk-starks.                                                                                                                                                                                                         |
 | <a id="dataProtectionCompliant">Data Protection-compliant</a>                                     | A DID method's ability to fully adhere to data protection regulation requirements, ensuring comprehensive protection of personal data and individual privacy rights. For example: GDPR (EU), LGPD (Brasil), DPDP (India).                                                                                                                                                                                                                          |
+| <a id="cryptographyPrivacyPreservingBBSPlus">Privacy Preserving Crypto - BBS+</a>                 | A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/.                                                                                     |
+| <a id="cryptographyPrivacyPreservingNiZKPs">Privacy Preserving Crypto - niZKPs</a>                | A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types.                                                                                    |
 | <a id="cryptographyGovernmentApprovedARE">United Arab Emirates TDRA-approved Cryptography</a>     | A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body.                                                                                                                                                                                                                                                                                       |
 | <a id="cryptographyGovernmentApprovedAUS">Australia ASD-approved Cryptography</a>                 | A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body.                                                                                                                                                                                                                                                                                       |
 | <a id="cryptographyGovernmentApprovedBRA">Brasil ICP-approved Cryptography</a>                    | A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body.                                                                                                                                                                                                                                                                                       |
@@ -170,7 +168,8 @@ See ../examples/web.json
   "hostedCentrally": false,
   "hostedDecentrally": false,
   "dataProtectionCompliant": false,
-  "cryptographyPrivacyPreserving": false,
+  "cryptographyPrivacyPreservingBBSPlus": false,
+  "cryptographyPrivacyPreservingNiZKPs": false,
   "cryptographyGovernmentApprovedARE": false,
   "cryptographyGovernmentApprovedAUS": false,
   "cryptographyGovernmentApprovedBRA": false,
@@ -217,7 +216,8 @@ Generated via ../generate-markdown-table-comparison.nu
 | [Centrally Hosted](#hostedCentrally)                                                      |                                                                      |                                                                       | ✅                                                                   | ✅                                                                     |
 | [Decentrally Hosted](#hostedDecentrally)                                                  |                                                                      |                                                                       |                                                                      |                                                                        |
 | [Data Protection-compliant](#dataProtectionCompliant)                                     |                                                                      |                                                                       |                                                                      |                                                                        |
-| [Privacy Preserving Cryptography](#cryptographyPrivacyPreserving)                         |                                                                      |                                                                       |                                                                      |                                                                        |
+| [Privacy Preserving Crypto - BBS+](#cryptographyPrivacyPreservingBBSPlus)                 |                                                                      |                                                                       | ✅                                                                   | ✅                                                                     |
+| [Privacy Preserving Crypto - niZKPs](#cryptographyPrivacyPreservingNiZKPs)                |                                                                      |                                                                       | ✅                                                                   | ✅                                                                     |
 | [United Arab Emirates TDRA-approved Cryptography](#cryptographyGovernmentApprovedARE)     |                                                                      |                                                                       |                                                                      |                                                                        |
 | [Australia ASD-approved Cryptography](#cryptographyGovernmentApprovedAUS)                 |                                                                      |                                                                       |                                                                      |                                                                        |
 | [Brasil ICP-approved Cryptography](#cryptographyGovernmentApprovedBRA)                    |                                                                      |                                                                       |                                                                      |                                                                        |
