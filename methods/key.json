@@ -19,7 +19,6 @@
   "hostingNotRequired": true,
   "hostedCentrally": false,
   "hostedDecentrally": false,
-  "dataProtectionCompliant": false,
   "cryptographyPrivacyPreserving": false,
   "cryptographyGovernmentApprovedARE": false,
   "cryptographyGovernmentApprovedAUS": false,
