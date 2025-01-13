@@ -188,8 +188,9 @@ See ../examples/web.json
 
 ## Comparison of DID Methods
 
-The following table provides a comprehensive overview of trait support across multiple DID methods, enabling a
-systematic comparison of their capabilities.
+The following table illustrates trait support across a sample of DID methods, demonstrating how traits can be used to
+analyze and compare method capabilities. While not exhaustive, this comparison highlights key differences in method
+implementations and their supported features.
 
 <!--
 Generated via ../generate-markdown-table-comparison.nu
