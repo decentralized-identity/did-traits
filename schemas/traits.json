@@ -100,10 +100,15 @@
       "title": "Decentrally Hosted",
       "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
-    "cryptographyPrivacyPreserving": {
+    "cryptographyPrivacyPreservingBBSPlus": {
       "type": "boolean",
-      "title": "Privacy Preserving Cryptography",
-      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. For example: privacy techniques as zk-snarks and zk-starks."
+      "title": "Privacy Preserving Crypto - BBS+",
+      "description": "A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/."
+    },
+    "cryptographyPrivacyPreservingNiZKPs": {
+      "type": "boolean",
+      "title": "Privacy Preserving Crypto - niZKPs",
+      "description": "A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
     },
     "cryptographyGovernmentApprovedARE": {
       "type": "boolean",
