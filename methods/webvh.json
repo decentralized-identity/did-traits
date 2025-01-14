@@ -19,7 +19,6 @@
   "hostingNotRequired": true,
   "hostedCentrally": true,
   "hostedDecentrally": false,
-  "dataProtectionCompliant": false,
   "cryptographyPrivacyPreservingBBSPlus": true,
   "cryptographyPrivacyPreservingNiZKPs": true,
   "cryptographyGovernmentApprovedARE": false,

@@ -100,11 +100,6 @@
       "title": "Decentrally Hosted",
       "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
-    "dataProtectionCompliant": {
-      "type": "boolean",
-      "title": "Data Protection-compliant",
-      "description": "A DID method's ability to fully adhere to data protection regulation requirements, ensuring comprehensive protection of personal data and individual privacy rights. For example: GDPR (EU), LGPD (Brasil), DPDP (India)."
-    },
     "cryptographyPrivacyPreservingBBSPlus": {
       "type": "boolean",
       "title": "Privacy Preserving Crypto - BBS+",
