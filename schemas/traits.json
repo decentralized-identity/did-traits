@@ -113,72 +113,72 @@
     "cryptographicAlgorithmRsa2048": {
       "type": "boolean",
       "title": "RSA, 2048 bit key size",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRsa3072": {
       "type": "boolean",
       "title": "RSA, 3072 bit key size",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRSA4096": {
       "type": "boolean",
       "title": "RSA, 4096 bit key size",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsec256k1": {
       "type": "boolean",
       "title": "ECDSA, curve sec256k1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsecp384r1": {
       "type": "boolean",
       "title": "ECDSA, curve secp384r1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsecp512r1": {
       "type": "boolean",
       "title": "ECDSA, curve secp512r1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmEdDSA25519": {
       "type": "boolean",
       "title": "EdDSA, curve ed25519",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmEdDSAed25519": {
       "type": "boolean",
       "title": "EdDSA, curve ed448",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP256r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP256r1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP384r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP384r1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP512r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP512r1",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmGOST256": {
       "type": "boolean",
       "title": "GOST, curve GOST-256",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmGOST512": {
       "type": "boolean",
       "title": "GOST, curve GOST-512",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmSM2": {
       "type": "boolean",
       "title": "SM, curve SM2",
-      "description": "A DID method supports the cryptographic algorithm."
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     }
   },
   "required": [
