@@ -1,4 +1,4 @@
-# DID Traits 0.8 Editor's Draft
+# DID Traits 0.9.0 Editor's Draft
 
 **Specification Status:** [Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
 
