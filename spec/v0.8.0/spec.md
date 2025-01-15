@@ -1,12 +1,10 @@
-# did-traits 0.8 Editor's Draft
+# did-traits 0.8.0
 
 **Specification Status:** [Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
 
 **Latest Draft:** [identity.foundation/did-traits](https://identity.foundation/did-traits)
 
 **Ratified Versions:**
-
-~ [identity.foundation/did-traits/v0.8.0](https://identity.foundation/did-traits/v0.8.0)
 
 **Editors:**
 
@@ -123,7 +121,7 @@ Generated with ../generate-markdown-table-traits.nu
 
 The specification defines a normative JSON Schema data model for documenting and representing DID method traits in a
 machine-readable format. The canonical schema is formally defined at
-<https://identity.foundation/did-traits/schemas/traits.json>.
+<https://identity.foundation/did-traits/schemas/v0.8.0/traits.json>.
 
 DID method authors SHALL use this schema to describe their method's trait support. The schema is structured with two
 primary components:
@@ -150,7 +148,7 @@ See ../examples/web.json
 
 ```json
 {
-  "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
+  "$schema": "https://identity.foundation/did-traits/schemas/v0.8.0/traits.json",
   "name": "web",
   "updateable": true,
   "updateableServiceEndpoints": true,
