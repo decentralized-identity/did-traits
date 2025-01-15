@@ -1,6 +1,6 @@
-# did-traits 0.1 Editor's Draft
+# did-traits 0.8 Editor's Draft
 
-**Specification Status:** [Pre-Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
+**Specification Status:** [Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
 
 **Latest Draft:** [identity.foundation/did-traits](https://identity.foundation/did-traits)
 
