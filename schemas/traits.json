@@ -110,65 +110,75 @@
       "title": "Privacy Preserving Crypto - niZKPs",
       "description": "A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
     },
-    "cryptographyGovernmentApprovedARE": {
+    "cryptographicAlgorithmRsa2048": {
       "type": "boolean",
-      "title": "United Arab Emirates TDRA-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "RSA, 2048 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedAUS": {
+    "cryptographicAlgorithmRsa3072": {
       "type": "boolean",
-      "title": "Australia ASD-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "RSA, 3072 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedBRA": {
+    "cryptographicAlgorithmRSA4096": {
       "type": "boolean",
-      "title": "Brasil ICP-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "RSA, 4096 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedCAN": {
+    "cryptographicAlgorithmECDSAsec256k1": {
       "type": "boolean",
-      "title": "Canada CSE-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "ECDSA, curve sec256k1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedCHN": {
+    "cryptographicAlgorithmECDSAsecp384r1": {
       "type": "boolean",
-      "title": "China SM-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "ECDSA, curve secp384r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedEU": {
+    "cryptographicAlgorithmECDSAsecp512r1": {
       "type": "boolean",
-      "title": "European Union ETSI/ENISA-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "ECDSA, curve secp512r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedIND": {
+    "cryptographicAlgorithmEdDSA25519": {
       "type": "boolean",
-      "title": "India CCA-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "EdDSA, curve ed25519",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedISR": {
+    "cryptographicAlgorithmEdDSAed25519": {
       "type": "boolean",
-      "title": "Israel SCALPEL-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "EdDSA, curve ed448",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedJPN": {
+    "cryptographicAlgorithmBrainpoolP256r1": {
       "type": "boolean",
-      "title": "Japan CRYPTREC-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "Brainpool, curve BrainpoolP256r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedKOR": {
+    "cryptographicAlgorithmBrainpoolP384r1": {
       "type": "boolean",
-      "title": "South Korea KCMVP-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "Brainpool, curve BrainpoolP384r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedRUS": {
+    "cryptographicAlgorithmBrainpoolP512r1": {
       "type": "boolean",
-      "title": "Russia GOST-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "Brainpool, curve BrainpoolP512r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographyGovernmentApprovedUSA": {
+    "cryptographicAlgorithmGOST256": {
       "type": "boolean",
-      "title": "United States of America NIST-approved Cryptography",
-      "description": "A DID method that implements cryptographic algorithms and protocols that are explicitly validated and recommended the national cryptographic standards body."
+      "title": "GOST, curve GOST-256",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmGOST512": {
+      "type": "boolean",
+      "title": "GOST, curve GOST-512",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmSM2": {
+      "type": "boolean",
+      "title": "SM, curve SM2",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     }
   },
   "required": [

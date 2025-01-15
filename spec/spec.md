@@ -234,7 +234,25 @@ Generated via ../generate-markdown-table-comparison.nu
 
 ## Appendix
 
-### Relate Specifications and Research
+### National Cryptographic Standards Bodies
+
+List of national cryptographic standards bodies that approve cryptographic alogorithms for national use:
+
+| Country              | Agency Name                                                                                              | Website                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Australia            | Australian Signals Directorate (ASD)                                                                     | <https://www.asd.gov.au/>                                                                |
+| Brazil               | Instituto Nacional de Tecnologia da Informação (ITI)                                                     | <https://www.gov.br/iti/pt-br>                                                           |
+| Canada               | Communications Security Establishment Canada (CSE)                                                       | <https://www.cse-cst.gc.ca>                                                              |
+| China                | State Cryptography Administration (SCA)                                                                  | <http://www.sca.gov.cn>                                                                  |
+| European Union       | European Union Agency for Cybersecurity (ENISA) & European Telecommunications Standards Institute (ETSI) | <https://www.enisa.europa.eu> & <https://www.etsi.org>                                   |
+| Israel               | National Cyber Directorate                                                                               | <https://www.gov.il/en/departments/israel_national_cyber_directorate/govil-landing-page> |
+| Japan                | Cryptography Research and Evaluation Committees (CRYPTREC)                                               | <https://www.cryptrec.go.jp>                                                             |
+| Russia               | EASC - Euro-Asian Council for standardization, metrology and certification                               | <https://easc.by/>                                                                       |
+| South Korea          | Korea Cryptographic Module Validation Program (KCMVP) & National Intelligence Service (NIS)              | <https://eng.nis.go.kr/EAF/1_7_2_1.do>                                                   |
+| United Arab Emirates | Telecommunications and Digital Government Regulatory Authority (TDRA)                                    | <https://www.tdra.gov.ae>                                                                |
+| United States        | National Institute of Standards and Technology (NIST)                                                    | <https://www.nist.gov>                                                                   |
+
+### Related Specifications and Research
 
 - [A Taxonomy of Decentralized Identifier Methods for Practitioners](https://arxiv.org/pdf/2311.03367). F. Hoops, A.
   Mühle, F. Matthes, C. Meinel. 2023.
