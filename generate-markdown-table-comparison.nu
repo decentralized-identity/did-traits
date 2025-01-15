@@ -5,6 +5,6 @@ ls methods/*.json | each {|file|
   let traits = { Trait: $"[did:($method.name)]\(https://www.w3.org/TR/did-extensions-methods/#did-methods\)" }
   # $traits | merge
   ($properties | columns | filter {$in != "name"} | each {|name|
-    { trait: $"[($properties | get $name | get title)]\(#($name)\)", value: ($method | default false $name | get $name | if $in { "✅" } else { "" }) }
+    { trait: $"<a id=\"comp-($name)\" href=\"#($name)\">($properties | get $name | get title)</a>", value: ($method | default false $name | get $name | if $in { "✅" } else { "" }) }
   }) | reduce -f $traits {|it, acc| $acc | insert $it.trait $it.value }
-} | transpose | rename ...($in.0 | values) | to md
+} | transpose | rename ...($in.0 | values) | drop nth 0 | to md
