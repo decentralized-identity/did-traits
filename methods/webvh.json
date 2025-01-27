@@ -24,7 +24,7 @@
   "cryptographicAlgorithmRsa2048": true,
   "cryptographicAlgorithmRsa3072": true,
   "cryptographicAlgorithmRSA4096": true,
-  "cryptographicAlgorithmECDSAsec256k1": true,
+  "cryptographicAlgorithmECDSAsecp256k1": true,
   "cryptographicAlgorithmECDSAsecp384r1": true,
   "cryptographicAlgorithmECDSAsecp512r1": true,
   "cryptographicAlgorithmEdDSA25519": true,
