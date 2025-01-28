@@ -4,7 +4,7 @@
   "supportsUpdate": false,
   "supportsUpdateServiceEndpoints": false,
   "supportsDeactivate": false,
-  "deletable": false,
+  "supportsDelete": false,
   "transactionalFees": false,
   "selfCertifying": true,
   "updateableVerificationMethods": false,

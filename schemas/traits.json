@@ -25,10 +25,10 @@
       "title": "Deactivate supported?",
       "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
     },
-    "deletable": {
+    "supportsDelete": {
       "type": "boolean",
-      "title": "Deletable",
-      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical irresolvable."
+      "title": "Delete supported?",
+      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
     },
     "transactionalFees": {
       "type": "boolean",
