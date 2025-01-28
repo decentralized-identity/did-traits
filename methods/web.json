@@ -7,7 +7,7 @@
   "supportsDelete": true,
   "transactionalFees": false,
   "selfCertifying": false,
-  "updateableVerificationMethods": true,
+  "supportsUpdateVerificationMethods": true,
   "prerotationOfKeys": false,
   "multisigVerificationMethod": false,
   "humanreadable": true,

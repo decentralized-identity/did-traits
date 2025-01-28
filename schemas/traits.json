@@ -40,10 +40,10 @@
       "title": "Self-Certifying",
       "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
     },
-    "updateableVerificationMethods": {
+    "supportsUpdateVerificationMethods": {
       "type": "boolean",
-      "title": "Rotatable Verification Methods",
-      "description": "Verification methods are updateable, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
+      "title": "Verification Methods can be updated?",
+      "description": "Verification methods can be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
     "prerotationOfKeys": {
       "type": "boolean",
