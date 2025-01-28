@@ -3,7 +3,7 @@
   "name": "cheqd",
   "updateable": true,
   "updateableServiceEndpoints": true,
-  "deactivatable": true,
+  "supportsDeactivate": true,
   "deletable": false,
   "transactionalFees": true,
   "selfCertifying": false,

@@ -3,7 +3,7 @@
   "name": "key",
   "updateable": false,
   "updateableServiceEndpoints": false,
-  "deactivatable": false,
+  "supportsDeactivate": false,
   "deletable": false,
   "transactionalFees": false,
   "selfCertifying": true,

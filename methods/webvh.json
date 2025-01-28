@@ -3,7 +3,7 @@
   "name": "webvh",
   "updateable": true,
   "updateableServiceEndpoints": true,
-  "deactivatable": true,
+  "supportsDeactivate": true,
   "deletable": true,
   "transactionalFees": false,
   "selfCertifying": true,

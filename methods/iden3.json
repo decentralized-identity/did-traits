@@ -3,7 +3,7 @@
   "name": "iden3",
   "updateable": true,
   "updateableServiceEndpoints": true,
-  "deactivatable": true,
+  "supportsDeactivate": true,
   "deletable": false,
   "transactionalFees": true,
   "selfCertifying": false,

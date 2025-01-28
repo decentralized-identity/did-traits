@@ -20,10 +20,10 @@
       "title": "Updateable Service Endpoints",
       "description": "Service endpoints are updateable, see https://w3c.github.io/did-core/#services."
     },
-    "deactivatable": {
+    "supportsDeactivate": {
       "type": "boolean",
-      "title": "Deactivatable",
-      "description": "DIDs are deactivatable, see https://w3c.github.io/did-core/#method-operations."
+      "title": "Deactivate supported?",
+      "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
     },
     "deletable": {
       "type": "boolean",

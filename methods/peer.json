@@ -3,7 +3,7 @@
   "name": "peer",
   "updateable": true,
   "updateableServiceEndpoints": true,
-  "deactivatable": false,
+  "supportsDeactivate": false,
   "deletable": false,
   "transactionalFees": false,
   "selfCertifying": true,
