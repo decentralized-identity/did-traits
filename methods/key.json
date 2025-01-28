@@ -2,7 +2,7 @@
   "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
   "name": "key",
   "supportsUpdate": false,
-  "updateableServiceEndpoints": false,
+  "supportsUpdateServiceEndpoints": false,
   "supportsDeactivate": false,
   "deletable": false,
   "transactionalFees": false,

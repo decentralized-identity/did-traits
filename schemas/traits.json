@@ -15,10 +15,10 @@
       "title": "Update supported?",
       "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
     },
-    "updateableServiceEndpoints": {
+    "supportsUpdateServiceEndpoints": {
       "type": "boolean",
-      "title": "Updateable Service Endpoints",
-      "description": "Service endpoints are updateable, see https://w3c.github.io/did-core/#services."
+      "title": "Service Endpoints can be updated?",
+      "description": "Service Endpoints can be updated, see https://w3c.github.io/did-core/#services."
     },
     "supportsDeactivate": {
       "type": "boolean",

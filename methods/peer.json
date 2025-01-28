@@ -2,7 +2,7 @@
   "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
   "name": "peer",
   "supportsUpdate": true,
-  "updateableServiceEndpoints": true,
+  "supportsUpdateServiceEndpoints": true,
   "supportsDeactivate": false,
   "deletable": false,
   "transactionalFees": false,
