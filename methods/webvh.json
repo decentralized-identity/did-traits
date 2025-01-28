@@ -1,7 +1,7 @@
 {
   "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
   "name": "webvh",
-  "updateable": true,
+  "supportsUpdate": true,
   "updateableServiceEndpoints": true,
   "supportsDeactivate": true,
   "deletable": true,

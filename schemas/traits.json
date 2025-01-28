@@ -10,10 +10,10 @@
       "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
-    "updateable": {
+    "supportsUpdate": {
       "type": "boolean",
-      "title": "Updateable",
-      "description": "DID Documents are updateable, see https://w3c.github.io/did-core/#method-operations."
+      "title": "Update supported?",
+      "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
     },
     "updateableServiceEndpoints": {
       "type": "boolean",
