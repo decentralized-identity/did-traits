@@ -10,7 +10,7 @@
   "supportsUpdateVerificationMethods": true,
   "prerotationOfKeys": false,
   "multisigVerificationMethod": false,
-  "humanreadable": false,
+  "humanReadable": false,
   "enumerable": false,
   "resolvableLocally": false,
   "resolvableGlobally": true,

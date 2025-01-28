@@ -55,7 +55,7 @@
       "title": "Multi-Signature Verification Method",
       "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating, deactivating or using the DID."
     },
-    "humanreadable": {
+    "humanReadable": {
       "type": "boolean",
       "title": "Human-readable",
       "description": "A DID method's ability to generate identifiers that are cognitively accessible and memorable to humans, typically incorporating meaningful, domain-specific, or intuitive components."
