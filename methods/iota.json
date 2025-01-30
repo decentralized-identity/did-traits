@@ -4,7 +4,7 @@
   "updateable": true,
   "updateableServiceEndpoints": true,
   "deactivatable": true,
-  "deletable": true,
+  "deletable": false,
   "transactionalFees": true,
   "selfCertifying": false,
   "updateableVerificationMethods": true,
