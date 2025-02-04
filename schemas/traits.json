@@ -12,22 +12,22 @@
     },
     "supportsUpdate": {
       "type": "boolean",
-      "title": "Update supported?",
+      "title": "Update supported",
       "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
     },
     "supportsUpdateServiceEndpoints": {
       "type": "boolean",
-      "title": "Service Endpoints can be updated?",
+      "title": "Service Endpoints can be updated",
       "description": "Service Endpoints can be updated, see https://w3c.github.io/did-core/#services."
     },
     "supportsDeactivate": {
       "type": "boolean",
-      "title": "Deactivate supported?",
+      "title": "Deactivate supported",
       "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
     },
     "supportsDelete": {
       "type": "boolean",
-      "title": "Delete supported?",
+      "title": "Delete supported",
       "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
     },
     "transactionalFees": {
@@ -42,7 +42,7 @@
     },
     "supportsUpdateVerificationMethods": {
       "type": "boolean",
-      "title": "Verification Methods can be updated?",
+      "title": "Verification Methods can be updated",
       "description": "Verification methods can be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
     "prerotationOfKeys": {
