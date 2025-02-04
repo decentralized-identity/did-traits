@@ -10,25 +10,25 @@
       "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
-    "updateable": {
+    "supportsUpdate": {
       "type": "boolean",
-      "title": "Updateable",
-      "description": "DID Documents are updateable, see https://w3c.github.io/did-core/#method-operations."
+      "title": "Update supported?",
+      "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
     },
-    "updateableServiceEndpoints": {
+    "supportsUpdateServiceEndpoints": {
       "type": "boolean",
-      "title": "Updateable Service Endpoints",
-      "description": "Service endpoints are updateable, see https://w3c.github.io/did-core/#services."
+      "title": "Service Endpoints can be updated?",
+      "description": "Service Endpoints can be updated, see https://w3c.github.io/did-core/#services."
     },
-    "deactivatable": {
+    "supportsDeactivate": {
       "type": "boolean",
-      "title": "Deactivatable",
-      "description": "DIDs are deactivatable, see https://w3c.github.io/did-core/#method-operations."
+      "title": "Deactivate supported?",
+      "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
     },
-    "deletable": {
+    "supportsDelete": {
       "type": "boolean",
-      "title": "Deletable",
-      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its historical irresolvable."
+      "title": "Delete supported?",
+      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
     },
     "transactionalFees": {
       "type": "boolean",
@@ -40,10 +40,10 @@
       "title": "Self-Certifying",
       "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
     },
-    "updateableVerificationMethods": {
+    "supportsUpdateVerificationMethods": {
       "type": "boolean",
-      "title": "Rotatable Verification Methods",
-      "description": "Verification methods are updateable, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
+      "title": "Verification Methods can be updated?",
+      "description": "Verification methods can be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
     "prerotationOfKeys": {
       "type": "boolean",
@@ -55,7 +55,7 @@
       "title": "Multi-Signature Verification Method",
       "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating, deactivating or using the DID."
     },
-    "humanreadable": {
+    "humanReadable": {
       "type": "boolean",
       "title": "Human-readable",
       "description": "A DID method's ability to generate identifiers that are cognitively accessible and memorable to humans, typically incorporating meaningful, domain-specific, or intuitive components."
@@ -82,7 +82,7 @@
     },
     "historySigned": {
       "type": "boolean",
-      "title": "Cryptograhpically signed DID Document History",
+      "title": "Cryptographically signed DID Document History",
       "description": "A DID method's capability to record all modifications to the DID document in an append-only, cryptographically verifiable data structure that prevents retroactive alteration or deletion of historical states."
     },
     "hostingNotRequired": {
@@ -103,12 +103,12 @@
     "cryptographyPrivacyPreservingBBSPlus": {
       "type": "boolean",
       "title": "Privacy Preserving Crypto - BBS+",
-      "description": "A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/."
+      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/."
     },
     "cryptographyPrivacyPreservingNiZKPs": {
       "type": "boolean",
       "title": "Privacy Preserving Crypto - niZKPs",
-      "description": "A DID method’s ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
+      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
     },
     "cryptographicAlgorithmRsa2048": {
       "type": "boolean",
