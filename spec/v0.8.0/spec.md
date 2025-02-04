@@ -1,10 +1,12 @@
 # DID Traits 0.8.0
 
-**Specification Status:** [Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
+**Specification Status:** [Working Group Approval](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
 
 **Latest Draft:** [identity.foundation/did-traits](https://identity.foundation/did-traits)
 
 **Ratified Versions:**
+
+~ [identity.foundation/did-traits/v0.8.0](https://identity.foundation/did-traits/v0.8.0)
 
 **Editors:**
 
@@ -150,16 +152,16 @@ See ../examples/web.json
 {
   "$schema": "https://identity.foundation/did-traits/schemas/v0.8.0/traits.json",
   "name": "web",
-  "updateable": true,
-  "updateableServiceEndpoints": true,
-  "deactivatable": true,
-  "deletable": true,
+  "supportsUpdate": true,
+  "supportsUpdateServiceEndpoints": true,
+  "supportsDeactivate": true,
+  "supportsDelete": true,
   "transactionalFees": false,
   "selfCertifying": false,
-  "updateableVerificationMethods": true,
+  "supportsUpdateVerificationMethods": true,
   "prerotationOfKeys": false,
   "multisigVerificationMethod": false,
-  "humanreadable": true,
+  "humanReadable": true,
   "enumerable": false,
   "resolvableLocally": false,
   "resolvableGlobally": true,
@@ -173,7 +175,7 @@ See ../examples/web.json
   "cryptographicAlgorithmRsa2048": true,
   "cryptographicAlgorithmRsa3072": true,
   "cryptographicAlgorithmRSA4096": true,
-  "cryptographicAlgorithmECDSAsec256k1": true,
+  "cryptographicAlgorithmECDSAsecp256k1": true,
   "cryptographicAlgorithmECDSAsecp384r1": true,
   "cryptographicAlgorithmECDSAsecp512r1": true,
   "cryptographicAlgorithmEdDSA25519": true,
