@@ -31,7 +31,7 @@ licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
 ## Abstract
 
-This document guides implementers of [W3C Decentralized Identifiers (DIDs)](https://w3c.github.io/did-core/) in
+This document guides users of [W3C Decentralized Identifiers (DIDs)](https://w3c.github.io/did-core/) in
 selecting suitable DID methods for their specific use cases by defining proven and relevant Decentralized Identifiers
 traits. It includes a JSON schema for representing traits of a concrete DID method in a structured, machine-readable
 format, enabling integration with third-party systems such as DID resolvers. This specification builds upon existing
@@ -65,7 +65,7 @@ This specification is organized into three main sections:
    machine-readable format. This section includes the complete JSON schema definition along with examples illustrating
    its application.
 3. [Comparison of DID Methods](#comparison-of-did-methods): Contains a comprehensive table comparing different DID
-   methods based on their traits. This comparison enables implementers to evaluate and select DID methods that best
+   methods based on their traits. This comparison enables users to evaluate and select DID methods that best
    match their requirements.
 
 The specification references supporting literature and related specifications throughout these sections, with complete
