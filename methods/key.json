@@ -12,7 +12,7 @@
   "multisigVerificationMethod": false,
   "humanReadable": false,
   "enumerable": false,
-  "resolvableLocally": false,
+  "resolvableLocally": true,
   "resolvableGlobally": true,
   "history": false,
   "historySigned": false,
