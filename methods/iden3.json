@@ -16,6 +16,7 @@
   "resolvableGlobally": true,
   "history": true,
   "historySigned": true,
+  "longTermAvailability": true,
   "hostingNotRequired": false,
   "hostedCentrally": false,
   "hostedDecentrally": true,
@@ -36,4 +37,3 @@
   "cryptographicAlgorithmGOST512": false,
   "cryptographicAlgorithmSM2": false
 }
-

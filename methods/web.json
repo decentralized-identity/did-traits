@@ -16,6 +16,7 @@
   "resolvableGlobally": true,
   "history": false,
   "historySigned": false,
+  "longTermAvailability": false,
   "hostingNotRequired": false,
   "hostedCentrally": true,
   "hostedDecentrally": false,
