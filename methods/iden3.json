@@ -19,6 +19,7 @@
   "hostingNotRequired": false,
   "hostedCentrally": false,
   "hostedDecentrally": true,
+  "keyValidation": true,
   "cryptographyPrivacyPreservingBBSPlus": false,
   "cryptographyPrivacyPreservingNiZKPs": true,
   "cryptographicAlgorithmRsa2048": false,
@@ -36,4 +37,3 @@
   "cryptographicAlgorithmGOST512": false,
   "cryptographicAlgorithmSM2": false
 }
-
