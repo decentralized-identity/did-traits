@@ -120,7 +120,7 @@
       "title": "RSA, 3072 bit key size",
       "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographicAlgorithmRSA4096": {
+    "cryptographicAlgorithmRsa4096": {
       "type": "boolean",
       "title": "RSA, 4096 bit key size",
       "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
