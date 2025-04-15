@@ -100,6 +100,11 @@
       "title": "Decentrally Hosted",
       "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
+    "keyValidation": {
+      "type": "boolean",
+      "title": "Key Validation",
+      "description": "DID method's capability to support explicit validation of cryptographic keys in the DID Document against the underlying technical infrastructure (e.g. ledger, registry, or protocol layer)."
+    },
     "cryptographyPrivacyPreservingBBSPlus": {
       "type": "boolean",
       "title": "Privacy Preserving Crypto - BBS+",
