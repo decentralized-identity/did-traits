@@ -7,7 +7,7 @@
     "name": {
       "type": "string",
       "title": "DID Method Name",
-      "description": "A DID Method with a properly defined Name, see https://w3c.github.io/did-core/#did-syntax.",
+      "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
       "pattern": "^[a-z0-9]+$"
     },
     "supportsUpdate": {
