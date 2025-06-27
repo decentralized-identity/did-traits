@@ -85,6 +85,11 @@
       "title": "Cryptographically signed DID Document History",
       "description": "A DID method's capability to record all modifications to the DID document in an append-only, cryptographically verifiable data structure that prevents retroactive alteration or deletion of historical states."
     },
+    "longTermAvailability": {
+      "type": "boolean",
+      "title": "DID Document Long-term Availability",
+      "description": "A DID method's capability to ensure the long-term availability and persistence of the DID document, even in cases where the DID controller or hosting entity becomes inactive or deliberately deletes the resource."
+    },
     "hostingNotRequired": {
       "type": "boolean",
       "title": "Hosting not required",
