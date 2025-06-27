@@ -110,15 +110,15 @@
       "title": "Key Validation",
       "description": "DID method's capability to support explicit validation of cryptographic keys in the DID Document against the underlying technical infrastructure (e.g. ledger, registry, or protocol layer)."
     },
-    "cryptographyPrivacyPreservingBBSPlus": {
-      "type": "boolean",
-      "title": "Privacy Preserving Crypto - BBS+",
-      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/."
-    },
     "cryptographyPrivacyPreservingNiZKPs": {
       "type": "boolean",
       "title": "Privacy Preserving Crypto - niZKPs",
       "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
+    },
+    "cryptographicAlgorithmBLS12_381": {
+      "type": "boolean",
+      "title": "BLS12 with 381 bit key length",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRsa2048": {
       "type": "boolean",
