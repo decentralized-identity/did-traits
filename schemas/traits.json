@@ -13,42 +13,42 @@
     "supportsUpdate": {
       "type": "boolean",
       "title": "Update supported",
-      "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
+      "description": "A DID method that supports the ability for DID Documents to be updated, see https://w3c.github.io/did-core/#method-operations."
     },
     "supportsUpdateServiceEndpoints": {
       "type": "boolean",
       "title": "Service Endpoints can be updated",
-      "description": "Service Endpoints can be updated, see https://w3c.github.io/did-core/#services."
+      "description": "A DID method that supports Service Endpoint updates, see https://w3c.github.io/did-core/#services."
     },
     "supportsDeactivate": {
       "type": "boolean",
       "title": "Deactivate supported",
-      "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
+      "description": "A DID method which allows DIDs to be deactivated, see https://w3c.github.io/did-core/#method-operations."
     },
     "supportsDelete": {
       "type": "boolean",
       "title": "Delete supported",
-      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
+      "description": "A DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
     },
     "transactionalFees": {
       "type": "boolean",
       "title": "Transactional Fees",
-      "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
+      "description": "A DID method which imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
     },
     "selfCertifying": {
       "type": "boolean",
       "title": "Self-Certifying",
-      "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
+      "description": "A DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
     },
     "supportsUpdateVerificationMethods": {
       "type": "boolean",
       "title": "Verification Methods can be updated",
-      "description": "Verification methods can be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
+      "description": "A DID method that allows Verification methods to be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
     },
     "prerotationOfKeys": {
       "type": "boolean",
       "title": "Pre-rotation of Keys",
-      "description": "Cryptographic mechanism that enables a DID controller to securely commit to a future key rotation without revealing the actual replacement public key. This technique creates a verifiable, one-way commitment to the next cryptographic key pair, preventing malicious actors who compromise the current private key from arbitrarily rotating to a new key of their choosing."
+      "description": "A DID method that supports Cryptographic mechanisms that enables a DID controller to securely commit to a future key rotation without revealing the actual replacement public key. This technique creates a verifiable, one-way commitment to the next cryptographic key pair, preventing malicious actors who compromise the current private key from arbitrarily rotating to a new key of their choosing."
     },
     "multisigVerificationMethod": {
       "type": "boolean",
@@ -93,22 +93,22 @@
     "hostingNotRequired": {
       "type": "boolean",
       "title": "Hosting not required",
-      "description": "DID document hosting on persistent storage is not required, at least for the initial DID document. For example: did:key and did:peer."
+      "description": "A DID method whose DID document does not require hosting on persistent storage, at least for the initial DID document. For example: did:key and did:peer."
     },
     "hostedCentrally": {
       "type": "boolean",
       "title": "Centrally Hosted",
-      "description": "DID document is stored and managed and resolved through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
+      "description": "A DID method whose DID document is stored and managed and resolved through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
     },
     "hostedDecentrally": {
       "type": "boolean",
       "title": "Decentrally Hosted",
-      "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
+      "description": "A DID method whose DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
     },
     "keyValidation": {
       "type": "boolean",
       "title": "Key Validation",
-      "description": "DID method's capability to support explicit validation of cryptographic keys in the DID Document against the underlying technical infrastructure (e.g. ledger, registry, or protocol layer)."
+      "description": "A DID method's capability to support explicit validation of cryptographic keys in the DID Document against the underlying technical infrastructure (e.g. ledger, registry, or protocol layer)."
     },
     "cryptographyPrivacyPreservingBBSPlus": {
       "type": "boolean",
@@ -123,77 +123,77 @@
     "cryptographicAlgorithmRsa2048": {
       "type": "boolean",
       "title": "RSA, 2048 bit key size",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRsa3072": {
       "type": "boolean",
       "title": "RSA, 3072 bit key size",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRsa4096": {
       "type": "boolean",
       "title": "RSA, 4096 bit key size",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmRsa8192": {
       "type": "boolean",
       "title": "RSA, 8192 bit key size",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsecp256k1": {
       "type": "boolean",
       "title": "ECDSA, curve sec256k1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsecp384r1": {
       "type": "boolean",
       "title": "ECDSA, curve secp384r1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmECDSAsecp512r1": {
       "type": "boolean",
       "title": "ECDSA, curve secp512r1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmEdDSA25519": {
       "type": "boolean",
       "title": "EdDSA, curve ed25519",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmEdDSAed25519": {
       "type": "boolean",
       "title": "EdDSA, curve ed448",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP256r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP256r1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP384r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP384r1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmBrainpoolP512r1": {
       "type": "boolean",
       "title": "Brainpool, curve BrainpoolP512r1",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmGOST256": {
       "type": "boolean",
       "title": "GOST, curve GOST-256",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmGOST512": {
       "type": "boolean",
       "title": "GOST, curve GOST-512",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
     "cryptographicAlgorithmSM2": {
       "type": "boolean",
       "title": "SM, curve SM2",
-      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+      "description": "A DID method that supports this cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     }
   },
   "required": [
