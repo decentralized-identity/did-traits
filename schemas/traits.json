@@ -155,12 +155,12 @@
       "title": "ECDSA, curve secp512r1",
       "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographicAlgorithmEdDSA25519": {
+    "cryptographicAlgorithmEd25519": {
       "type": "boolean",
       "title": "EdDSA, curve ed25519",
       "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
     },
-    "cryptographicAlgorithmEdDSAed25519": {
+    "cryptographicAlgorithmEd448": {
       "type": "boolean",
       "title": "EdDSA, curve ed448",
       "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
