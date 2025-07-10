@@ -1,6 +1,6 @@
-# DID Traits 1.1.0 Editor's Draft
+# DID Traits 1.0.0
 
-**Specification Status:** [Draft](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
+**Specification Status:** [Pending - Working Group Approval](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md)
 
 **Latest Draft:** [identity.foundation/did-traits](https://identity.foundation/did-traits)
 
@@ -155,7 +155,7 @@ See ../examples/web.json
 
 ```json
 {
-  "$schema": "https://identity.foundation/did-traits/schemas/traits.json",
+  "$schema": "https://identity.foundation/did-traits/schemas/v1.0.0/traits.json",
   "name": "web",
   "supportsUpdate": true,
   "supportsUpdateServiceEndpoints": true,
