@@ -23,7 +23,7 @@
         "account": "decentralized-identity",
         "repo": "did-traits"
       }
-    }
+    },
     {
       "title": "DID Traits",
       "spec_directory": "./spec/v1.0.0",
