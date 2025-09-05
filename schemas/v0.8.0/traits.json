@@ -1,0 +1,187 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://identity.foundation/did-traits/schemas/traits.json",
+  "title": "DID Traits",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "DID Method Name",
+      "description": "DID Method Name, see https://w3c.github.io/did-core/#did-syntax.",
+      "pattern": "^[a-z0-9]+$"
+    },
+    "supportsUpdate": {
+      "type": "boolean",
+      "title": "Update supported",
+      "description": "DID Documents can be updated, see https://w3c.github.io/did-core/#method-operations."
+    },
+    "supportsUpdateServiceEndpoints": {
+      "type": "boolean",
+      "title": "Service Endpoints can be updated",
+      "description": "Service Endpoints can be updated, see https://w3c.github.io/did-core/#services."
+    },
+    "supportsDeactivate": {
+      "type": "boolean",
+      "title": "Deactivate supported",
+      "description": "DIDs can be deactivated, see https://w3c.github.io/did-core/#method-operations."
+    },
+    "supportsDelete": {
+      "type": "boolean",
+      "title": "Delete supported",
+      "description": "DID method's capability to permanently remove a DID and its associated DID document from the underlying system, rendering the identifier and its history unresolvable."
+    },
+    "transactionalFees": {
+      "type": "boolean",
+      "title": "Transactional Fees",
+      "description": "Indicates whether a DID method imposes mandatory transactional costs for creating, updating, or deactivating identifiers. These fees are typically associated with blockchain or distributed ledger-based methods, where computational resources and network consensus mechanisms necessitate economic compensation."
+    },
+    "selfCertifying": {
+      "type": "boolean",
+      "title": "Self-Certifying",
+      "description": "DID method where the cryptographic material used to generate the DID is embedded within the identifier itself, creating an inherent and verifiable cryptographic binding between the DID, its initial DID document, and the associated cryptographic keys. This approach eliminates the need for external verification infrastructure, as the identifier's authenticity can be cryptographically validated through its own intrinsic key material."
+    },
+    "supportsUpdateVerificationMethods": {
+      "type": "boolean",
+      "title": "Verification Methods can be updated",
+      "description": "Verification methods can be updated, allowing cryptographic keys to be replaced or updated, see https://w3c.github.io/did-core/#verification-methods."
+    },
+    "prerotationOfKeys": {
+      "type": "boolean",
+      "title": "Pre-rotation of Keys",
+      "description": "Cryptographic mechanism that enables a DID controller to securely commit to a future key rotation without revealing the actual replacement public key. This technique creates a verifiable, one-way commitment to the next cryptographic key pair, preventing malicious actors who compromise the current private key from arbitrarily rotating to a new key of their choosing."
+    },
+    "multisigVerificationMethod": {
+      "type": "boolean",
+      "title": "Multi-Signature Verification Method",
+      "description": "A DID method that supports distributed control of a decentralized identifier through a cryptographic mechanism requiring multiple independent signatures to authorize critical identity operations such as updating, deactivating or using the DID."
+    },
+    "humanReadable": {
+      "type": "boolean",
+      "title": "Human-readable",
+      "description": "A DID method's ability to generate identifiers that are cognitively accessible and memorable to humans, typically incorporating meaningful, domain-specific, or intuitive components."
+    },
+    "enumerable": {
+      "type": "boolean",
+      "title": "Enumerable",
+      "description": "A DID method where all identifiers within the system can be comprehensively discovered and listed through a publicly accessible registry, typically implemented using a distributed ledger technology (DLT) or similar transparent infrastructure."
+    },
+    "resolvableLocally": {
+      "type": "boolean",
+      "title": "Locally Resolvable",
+      "description": "A DID method where identifiers and their associated DID documents are resolvable and verifiable only within a specific, transient local context."
+    },
+    "resolvableGlobally": {
+      "type": "boolean",
+      "title": "Globally Resolvable",
+      "description": "A DID method where identifiers can be resolved from any network location, enabling universal access to the associated DID document across diverse computational environments and geographic boundaries."
+    },
+    "history": {
+      "type": "boolean",
+      "title": "DID Document History",
+      "description": "A DID method's capability to preserve and retrieve previous versions of a DID document, enabling comprehensive historical traceability of identity metadata and modifications."
+    },
+    "historySigned": {
+      "type": "boolean",
+      "title": "Cryptographically signed DID Document History",
+      "description": "A DID method's capability to record all modifications to the DID document in an append-only, cryptographically verifiable data structure that prevents retroactive alteration or deletion of historical states."
+    },
+    "hostingNotRequired": {
+      "type": "boolean",
+      "title": "Hosting not required",
+      "description": "DID document hosting on persistent storage is not required, at least for the initial DID document. For example: did:key and did:peer."
+    },
+    "hostedCentrally": {
+      "type": "boolean",
+      "title": "Centrally Hosted",
+      "description": "DID document is stored and managed and resolved through a single, centralized service infrastructure, typically implemented using a web server or controlled repository."
+    },
+    "hostedDecentrally": {
+      "type": "boolean",
+      "title": "Decentrally Hosted",
+      "description": "DID document is stored, managed, and resolved through a distributed infrastructure, typically implemented using decentralized ledger technologies (DLT) or peer-to-peer networks."
+    },
+    "cryptographyPrivacyPreservingBBSPlus": {
+      "type": "boolean",
+      "title": "Privacy Preserving Crypto - BBS+",
+      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Specifically by using the Selective Disclosure techniques of the BBS+ scheme as standardized in the IETF CFRG https://datatracker.ietf.org/doc/draft-irtf-cfrg-bbs-signatures/."
+    },
+    "cryptographyPrivacyPreservingNiZKPs": {
+      "type": "boolean",
+      "title": "Privacy Preserving Crypto - niZKPs",
+      "description": "A DID method's ability to use cryptographic techniques that enable identity verification and authentication while minimizing the disclosure of sensitive personal information. Using other cryptography that supports Non-interactive Zero Knowledge Proofs (niZKPs) such as zk-SNARKS, zk-STARKS, Bulletproofs or other similar zero knowledge protocol types."
+    },
+    "cryptographicAlgorithmRsa2048": {
+      "type": "boolean",
+      "title": "RSA, 2048 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmRsa3072": {
+      "type": "boolean",
+      "title": "RSA, 3072 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmRSA4096": {
+      "type": "boolean",
+      "title": "RSA, 4096 bit key size",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmECDSAsecp256k1": {
+      "type": "boolean",
+      "title": "ECDSA, curve sec256k1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmECDSAsecp384r1": {
+      "type": "boolean",
+      "title": "ECDSA, curve secp384r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmECDSAsecp512r1": {
+      "type": "boolean",
+      "title": "ECDSA, curve secp512r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmEdDSA25519": {
+      "type": "boolean",
+      "title": "EdDSA, curve ed25519",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmEdDSAed25519": {
+      "type": "boolean",
+      "title": "EdDSA, curve ed448",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmBrainpoolP256r1": {
+      "type": "boolean",
+      "title": "Brainpool, curve BrainpoolP256r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmBrainpoolP384r1": {
+      "type": "boolean",
+      "title": "Brainpool, curve BrainpoolP384r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmBrainpoolP512r1": {
+      "type": "boolean",
+      "title": "Brainpool, curve BrainpoolP512r1",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmGOST256": {
+      "type": "boolean",
+      "title": "GOST, curve GOST-256",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmGOST512": {
+      "type": "boolean",
+      "title": "GOST, curve GOST-512",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    },
+    "cryptographicAlgorithmSM2": {
+      "type": "boolean",
+      "title": "SM, curve SM2",
+      "description": "A DID method supports the cryptographic algorithm, which has been verified by any of the government entities mentioned in appendix National Cryptographic Standards Bodies."
+    }
+  },
+  "required": [
+    "name"
+  ]
+}
